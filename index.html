@@ -14,41 +14,45 @@
             <span>Linked</span><img src="linkedin.png" alt="linkedin logo">
         </div>
 
-        <div>
-            <ul class="nav-links">
-                <li class="articles"><a href="#"><span>
-                    <img src="content-writing.png" alt="Articles"></span>Articles </a></li>
-                <li class="people"><a href="#"><span>
-                    <img src="multiple-users-silhouette.png" alt="People">People</a></li>
-                <li class="learning"><a href="#"><span>
-                    <img src="online-learning.png" alt="Learning"></span>Learning</a></li>
-                <li class="jobs"><a href="#"><span>
-                    <img src="briefcase.png" alt="Jobs"></span> Jobs</a></li>
-                <li class="games"><a href="#"><span>
-                    <img src="puzzle.png" alt="Games"></span>Games</a></li>
-                <li class="getapp"><a href="#"><span>
-                    <img src="save.png" alt="Get"></span> Get the app</a></li>
-                <li class="signin"><a href="#"><button>Sign in</button></a></li>
-                <li class="join"><a href="#"><button>Join now</button> </a></li>
-
+        <div class="nav-links">
+            <ul>
+                <li class="articles"><a href="#">
+                    <img src="content-writing.png" alt="Articles">Articles </a></li>
+                <li class="people"><a href="#">
+                    <img src="multiple-users-silhouette.png" alt="People">People </a></li>
+                <li class="learning"><a href="#">
+                    <img src="online-learning.png" alt="Learning">Learning </a></li>
+                <li class="jobs"><a href="#">
+                    <img src="briefcase.png" alt="Jobs"> Jobs</a></li>
+                <li class="games"><a href="#">
+                    <img src="puzzle.png" alt="Games">Games</a></li>
+                <li id="getapp"><a href="#">
+                    <img src="save.png" alt="Get"> Get the app</a></li>
             </ul>
+            <div class="nav-buttons">
+                <button id="join">Join now</button> 
+                <button id="signin">Sign in</button>
+                
+            </div>
+
         </div>
     </nav>
     <section class="section-1">
         <div class="container">
             <h1>Welcome to your professional community</h1>
             <button class="google">
-                <span><img src="search.png" alt="googleicon"></span>Continue with google
+                <img src="search.png" alt="googleicon">Continue with google
             </button>
             <button class="sign-with-email">
                 Sign in with email
             </button>
-            <p>
-                By clicking Continue to join or sign in, you agree 
-                to LinkedIn's <span>User Agreement, Privay Policy</span>
+            <div class="text">
+                <p>By clicking Continue to join or sign in, you agree 
+                to LinkedIn's <span>User Agreement, Privacy Policy</span>
                 ,and <span>Cookie Policy</span>.
-            </p>
+                </p>
             <h4>New to LinkedIn? <span>Join now</span></h4>
+            </div>
 
         </div>
         <div class="main-image">
@@ -86,7 +90,7 @@
             <h3>Find the right job or internship for you</h3>
         </div>
         <div class="job-list">
-            <ul>
+            <ul class="lista">
                 <li><button>Engineering</button></li>
                 <li><button>Business Management</button></li>
                 <li><button id="finance-button">Finance</button></li>
@@ -96,19 +100,24 @@
                 <li><button>Operations </button></li>
                 <li><button>Information Technology</button></li>
                 <li><button id="marketing-button">Marketing</button></li>
-                <li><button>Human Resource</button></li>
-                <li><button id="show-more-button">Show more <span>
-                    <img src="down-arrow.png" alt="downarrow"></span></button> </li>
+                <li><button>Human Resource</button></li> 
 
+            </ul>
+            <ul class="listb">
+                <li><button id="show-more-button">Show more 
+                    <img src="down-arrow.png" alt="downarrow"></button> </li>
             </ul>
             
         </div>
+        
     </section>
     <section class="section-4">
-        <p>Post your job for millions of people to see</p> 
+        <div class="s4contents">
+            <p>Post your job for millions of people to see</p> 
         <button>
             Post a job
         </button>
+        </div>  
     </section>
     
     <section class="section-5">
