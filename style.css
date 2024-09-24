@@ -862,9 +862,10 @@ nav {
     width: 1128px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     text-align: center; 
+    margin: auto;
 }
 .s10text h1{
 
@@ -1712,7 +1713,7 @@ footer ul li:hover {
     }
     #topic-list{
         font-size: 14px;
-        font-weight: 500;
+        font-weight: 600;
     }
     footer{
         width: 426px;
@@ -1728,10 +1729,172 @@ footer ul li:hover {
         padding-right: 0px;
         padding-top: 4px;
     }
-    
-    
 
+}
 
+@media (max-width: 321px){ 
 
+    /* SMALL mobile design*/
+    body{
+       overflow-x: hidden;
+   }
+   nav{
+    width: 320px;
+    margin: auto;
+   }
+   .logo{
+    width: 84px;
+   }
+   .section-1{
+    width: 320px;
+   }
+   .container{
+    width: 320px;
+   }
+   .text p{
+    width: 320px;
+   }
+   .main-image{
+    height: 278px;
+   }
+   .main-image img{
+    height: 270px;
+    width: 270px;
+   }
+   .section-2{
+    width: 320px;
+   }
+   .leftside{
+    width: 320px;
+   }
+   .leftside h3{
+    font-size: 24px;
+   }
+   .article-list{
+    width: 320px;
+    height: 300px;
+   }
+   .article-list button{
+    height: 40px;
+    padding: 6px 12px;
+   }
+   .section-3{
+    width: 320px;
+    height: 400px;
+   }
+   .headerline{
+    font-size: 24px;
+    margin-left: 0;
+   }
+   .job-list{
+    width: 320px;
+    height: 300px;
+   }
+   .job-list button{
+    height: 40px;
+    padding: 6px 12px;
+   }
+   .section-4{
+    width: 320px;
+   }
+   .s4contents{
+    width: 320px;
+   }
+   .section-4 p{
+    font-size: 24px;
+   }
+   .section button{
+    height: 40px;
+    padding: 6px 12px;
+   }
+   .section-5{
+    width: 320px;
+    height: 680px;
+   }
+   .section-5 .leftside h3{
+    text-align: left;
+    line-height: 32px;
+   }
+   .swtools-list{
+    width: 320px;
+   }
+   .swtools-list button{
+    height: 40px;
+    padding: 6px 12px;
+   }
+   #hrmgtsystems{
+    padding: 3px 6px;
+   }
+   .section-6{
+    width: 320px;
+    height: 260px;
+   }
+   .section-6 .leftside{
+    height: 122px;
+   }
+   .section-6 .leftside h3{
+    line-height: 32px;
+    text-align: left;
+    padding-bottom: px;
+   }
+   .section-6 .leftside p{
+    padding-bottom: 4px;
+   }
+   .game-list{
+    width: 320px;
+    height: 64px;
+   }
+   .game-list button{
+    height: 40px;
+    padding: 6px 12px;
+   }
+   .section-7{
+    width: 320px;
+   }
+   .s7contents{
+    width: 320px;
+   }
+   .leftsides7 h3{
+    font-size: 24px;
+   }
+   .section-8{
+    width: 320px;
+   }
+   .section-9{
+    width: 320px;
+   }
+   .bigcontainer{
+    width: 320px;
+   }
+   .s9container1{
+    width: 320px;
+   }
+   .s9content{
+    width: 320px;
+   }
+   .s9content p{
+    width: 280px;
+   }
+   .s9content ul li button{
+    width: 260px;
+   }
+   .section-10{
+    width: 320px;
+   }
+   .s10text{
+    width: 320px;
+   }
+   .s10text h1{
+    width: 300px;
+   }
+   .section-11{
+    width: 320px;
+   }
+   .s11container{
+    width: 320px;
+   }
+   footer{
+    width: 320px;
+   }
 
 }
