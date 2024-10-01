@@ -35,10 +35,14 @@ body {
     font-weight: 500;
     color: var(--ink);
     text-decoration: none;
+    /* display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center; */
 }
 
 .header-area{
-    margin: 32px 32px 32px 16px;
+    margin: 32px 32px 32px 26px;
 }
 .header-area .logo{
     font-size: 28px;
@@ -66,11 +70,10 @@ body {
 .login-area{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
-.area1 h1{
+.login-area h1{
     height: 40px;
     display: block;
     font-size: 32px;
@@ -310,21 +313,27 @@ footer{
     }
     
 }
-@media( min-width: 768px){
+@media( min-width: 769px){
+    .login-area{
+        padding: 20px;
+        border-radius: 4px;
+        box-sizing: border-box;
+        box-shadow: rgba(0,0,0,0.15) 0px 4px 12px ;
+    }
     .area1 button{
-        padding: 8px 86px;
+        padding: 8px;
     }
     .input-1 input{
-        padding-left: 56px;
-        padding-right: 56px;
+        padding-left: 59px;
+        padding-right: 59px;
     }
     .input-2 input{
-        padding-left: 56px;
-        padding-right: 56px;
+        padding-left: 59px;
+        padding-right: 59px;
     }
     
     .signinbtn{
-        padding: 18px 146px;
+        padding: 18px 128px;
         font-size: 18px;
     }
     footer{
@@ -354,6 +363,14 @@ footer{
         text-decoration: underline;
     }
   
+    
+}
+@media(min-width: 1024px){
+    .login-area{
+        width: 360px;
+    }
+}
+@media screen {
     
 }
 

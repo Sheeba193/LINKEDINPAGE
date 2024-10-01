@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+:root{
+    --bg:#ffffff;
+    --ink: #000000;
+    --blue:#0a66c2;
+    --blueblue: rgb(10, 102, 194);
+    --dark-blue:#094ca3;
+    --light-blue:#eef2f7;
+    --greytext:rgba( 0,0,0,0.6);
+    --grey: #f3f2f0;
+    --light-grey: #eae6df;
+    --bg2:#d6c7b3;
+    --bg3:#f1ece5;
+    --bg4: #f3f2f0;
+    --red: #b24020;
+    --ptexts: rgba(0,0,0,0.9)
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+   
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Roboto', 'Helvetica Neue', 'Segoe UI', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--ink);
+    text-decoration: none;
+}
